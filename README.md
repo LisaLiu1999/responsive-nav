@@ -15,6 +15,7 @@ This project is a responsive navigation menu bilud with React.
 # Pages / Routes
 - Home
 - Services
+- Contact
 - Log in (Button)
 
 # Design Choices
