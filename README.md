@@ -1,12 +1,26 @@
-# React + Vite
+# Responsive Navbar Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive navigation menu bilud with React.
 
-Currently, two official plugins are available:
+# Key Features
+- Responsive navigation bar
+- Fully responsive layout for desktop, tablet and mobile
+- Hamburger menu on mobile view
+- React Routing with each page 
+- Styled with custom CSS
+- Hover effect and transitions
+- Logo Image with link to Home page
+- A user friendly and accessible UI for mobile
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Pages / Routes
+- Home
+- Services
+- Log in (Button)
 
-## Expanding the ESLint configuration
+# Design Choices
+- Warm and Friendly color palette to create an inviting pet-care theme
+- Clean layout with plenty of spacing and visual hierarchy
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
