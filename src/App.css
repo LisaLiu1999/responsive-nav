@@ -4,6 +4,9 @@
   padding: 0;
   text-align: left;
 }
+body {
+  font-family: "Work Sans", sans-serif;
+}
 
 .logo {
   height: 6em;

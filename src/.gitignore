@@ -1,0 +1,15 @@
+/node_modules
+/dist
+/build
+
+/public/dist
+/public/build
+
+.DS_Store
+
+.vscode/
+
+*.pem
+*.key
+
+.env

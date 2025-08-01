@@ -1,25 +1,29 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./assets/components/Navbar";
-import Home from "./assets/pages/Home";
-import Contact from "./assets/pages/Contact";
-import Services from "./assets/pages/Services";
-import Login from "./assets/pages/Login";
+import Navbar from "./components/Navbar";
+import Footer from "./components/footer";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Services from "./pages/Services";
+import Login from "./pages/Login";
+import Schedule from "./pages/schedule";
+import ScrollToTop from "./components/ScrollToTop";
+import MyBookings from "./pages/MyBookings";
 import "./App.css";
-
 
 function App() {
   return (
     <Router>
-
-        <Navbar />
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/login" element={<Login />} />
-        </Routes>
-   
+      <ScrollToTop />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/my-bookings" element={<MyBookings />} />
+      </Routes>
+      <Footer />
     </Router>
   );
 }
